@@ -1,7 +1,7 @@
 .pictures{
     width: 40%;
-    margin-left: 30%;
-    margin-top: 42px;
+    margin-left: 3.5%;
+    position: fixed;
 }
 
 .nav-bar-horisontell {
@@ -35,51 +35,88 @@ body {
 .wrapper{
     display:grid;
     grid-template-columns:1fr 1fr 2fr 1fr 1fr;
-    grid-auto-rows:minmax(100px, auto);
+    grid-auto-rows:minmax(210px, auto);
     grid-gap:1em;
     justify-items:stretch;
     align-items:stretch;
-    margin-top: 1em;
+    margin-top: 0em;
   }
 
   .wrapper > div{
-    background:#eee;
+    background:#fff;
     padding:1em;
   }
-  .wrapper > div:nth-child(odd){
+  /*.wrapper > div:nth-child(odd){
     background:#ddd;
-  }
-  .left{
-      grid-row: 1/20;
-      background: #333;
-  }
-  .right{
-      grid-row: 1/20;
-      background: #333;
-  }
+  }*/
+  
 
-  .box1{
+    .box1{
     /*align-self:start;*/
     grid-column:2/4;
     grid-row:1/3;
+    margin-top: 1em;
   }
 
   .box2{
     /*align-self:end;*/
     grid-column:4;
-    grid-row:1/3;
+    grid-row:1/4;
+    margin-top: 1em;
   }
 
   .box3{
     /*justify-self:end;*/
-    grid-column:3/5;
+    grid-column:2/4;
     grid-row:3;
   }
 
-  .box4{
-    grid-column:2;
-    grid-row:3/4;
-    border:1px solid #333;
+ /* .box5{
+    grid-column:2/5;
+    grid-row: 1/7;
+    margin: -1em;
+    background: #333;
+  }*/
+body {
+    background-image: url("/assets/background3.jpg");
+    }
+
+.wrapper2 {
+  display:grid;
+  grid-template-columns:1fr 1fr 2fr 1fr 1fr;
+  grid-auto-rows:minmax(210px, auto);
+  grid-gap:1em;
+  justify-items:stretch;
+  align-items:stretch;
+  margin-top: 0em; 
+}
+
+.wrapper2 > div{
+  background:#fff;
+  padding:1em;
+}
+
+.box21 {
+grid-row: auto;
+grid-column: 2/5;
+}
+.box22 {
+  grid-row: auto;
+  grid-column: 2/5;
   }
-
-
+  .box23 {
+    grid-row: auto;
+    grid-column: 2/5;
+    }
+    .box24 {
+      grid-row:auto;
+      grid-column: 2/5;
+      }
+      .box25 {
+        grid-row: auto;
+        grid-column: 2/5;
+        }
+        .box26 {
+          grid-row: auto;
+          grid-column: 2/5;
+          }
