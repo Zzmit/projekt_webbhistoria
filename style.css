@@ -63,7 +63,86 @@ body {
   /*.wrapper > div:nth-child(odd){
     background:#ddd;
   }*/
-  
+
+  .wrapper4{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows:minmax(230px,auto);
+    justify-items:stretch;
+    align-items:stretch;
+    
+
+  }
+  .wrapper4 > div{
+    background:#fff;
+    padding:1em;
+  }
+
+  .box32{
+    grid-row:1;
+    grid-column: 2/6;
+    margin:0.1em;
+   font-size:20px;
+   text-align: center;
+  }
+  .box31{
+    grid-row:1;
+    grid-column:6;
+    grid-gap:0em;
+  }
+  .box33{
+    grid-row:2;
+    grid-column:2/7;
+  }
+  /* #3{
+    width: 40%;
+    height: 40%;
+  } */
+
+  .box41{
+    grid-row:1;
+    grid-column:1/4;
+    grid-gap:1em;
+    margin: 1em;
+  }
+  .box42{
+    grid-row:1;
+    grid-column:4/8;
+    margin: 1em;
+  }
+  .box43{
+    grid-row:2;
+    grid-column: 1/4;
+    grid-gap:1em;
+    margin: 1em;
+  }
+  .box44{
+    grid-row:2;
+    grid-column:4/8;
+    margin: 1em;
+  }
+  .box45{
+    grid-row:3;
+    grid-column: 1/4;
+    grid-gap:1em;
+    margin: 1em;
+  }
+  .box46{
+    grid-row:3;
+    grid-column:4/8;
+    
+    margin: 1em;
+ 
+  }
+  .bild1{
+    width: 100%;
+  }
+  .bild2{
+    width: 100%;
+  }
+  .bild3{
+    width: 100%;
+  }
     .box51{
       grid-row:1;
       grid-column: 2/7;
